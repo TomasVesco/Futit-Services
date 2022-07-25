@@ -1,0 +1,20 @@
+@import '../listas/listas.scss';
+
+.navContainer{
+    background-color: nth($colores, 2);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: space-around;
+    a, p{
+        color: #ffffff;
+        text-align: center;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
