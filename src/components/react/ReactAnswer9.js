@@ -3,19 +3,21 @@ import { user } from './user.js';
 
 const ReactAnswer9 = () => {
     return(
-    <div>
+    <div className='reactAnswer9'>
         {Object.keys(user).map(item => 
-            <ol key={item}>
-                <li>
-                    {user[item].firstName}
-                </li>
-                <li>
-                    {user[item].lastName}
-                </li>
-                <li>
-                    {user[item].dni}
-                </li>
-            </ol>
+            <div>
+                <ol key={item}>
+                    <li>
+                        Name: {user[item].firstName}
+                    </li>
+                    <li>
+                        Last Name: {user[item].lastName}
+                    </li>
+                    <li>
+                        DNI: {user[item].dni}
+                    </li>
+                </ol>
+            </div>
         )}
     </div>
     )

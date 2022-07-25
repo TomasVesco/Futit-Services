@@ -10,11 +10,11 @@ const ReactAnswer18 = () => {
     const [title, setTitle] = useState(0)
     
     const calc = () => {
-        setCount(count += parseInt(title));
+        !isNaN(title) ? setCount(count += parseInt(title)) : alert('Only numbers are accepted');
     }
 
     return (
-    <div>
+    <div className='reactAnswer18'>
         <div>
             <div>
                 <span>{count}</span>
