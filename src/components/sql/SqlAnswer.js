@@ -1,3 +1,5 @@
+import { DiStreamline } from 'react-icons/di';
+
 import './styles.scss';
 
 const JavaScript = () => {
@@ -5,7 +7,7 @@ const JavaScript = () => {
     <div className='sqlContainer'>
         <div>
             <p>
-                SQL
+                SQL <DiStreamline />
             </p>
         </div>
         <div>

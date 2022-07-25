@@ -1,3 +1,5 @@
+import { DiJavascript1 } from "react-icons/di";
+
 import './styles.scss';
 
 const JavaScript = () => {
@@ -5,7 +7,7 @@ const JavaScript = () => {
     <div className='javaScriptContainer'>
         <div>
             <p>
-                JavaScript
+                JavaScript <DiJavascript1 />
             </p>
         </div>
         <div>

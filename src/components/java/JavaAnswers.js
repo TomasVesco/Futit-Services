@@ -1,3 +1,5 @@
+import { DiJava } from 'react-icons/di';
+
 import './styles.scss';
 
 const Java = () => {
@@ -5,15 +7,12 @@ const Java = () => {
     <div className='javaContainer'>
         <div>
             <p>
-                Java
+                Java <DiJava />
             </p>
         </div>
         <div>
             <p>
                 1) Hibernate maps Java classes to database tables freeing the developer from programming tasks related to data persistence.
-            </p>
-            <p>
-                2) Hibernate maps Java classes to database tables freeing the developer from programming tasks related to data persistence.
             </p>
         </div>
     </div>

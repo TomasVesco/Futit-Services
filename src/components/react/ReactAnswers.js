@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import { DiReact } from 'react-icons/di';
+
 import './styles.scss';
 
 const React = () => {
@@ -5,7 +8,7 @@ const React = () => {
     <div className='reactContainer'>
         <div>
             <p>
-                React
+                React <DiReact />
             </p>
         </div>
         <div>
@@ -24,27 +27,26 @@ const React = () => {
                 4) Is a variable with information to use it after and might be change.
             </p>
             <p>
-                5) There are three:
-                    Mounting when i put elements on the DOM
-                    Updating with props or statement
-                    Unmounting when is removed from the DOM
+                5) There are three: <br></br>
+                    <strong>Mounting</strong> when i put elements on the DOM <br></br>
+                    <strong>Updating</strong> with props or statement <br></br>
+                    <strong>Unmounting</strong> when is removed from the DOM 
             </p>
             <p>
                 6) 	To set the statement of a component i will write for example:
                 const [thereAreItems, setThereAreItems] = useState(false);
             </p>
             <p>
-                7) Other:
-                const [count, setCount] = useState(0);
+                7) Other: const [count, setCount] = useState(0);
             </p>
             <p>
                 8) The component will re-render because is and updating
             </p>
             <p>
-                9)
+                9) <Link to={'/React/9'}>Exercism 9</Link>
             </p>
             <p>
-                10)
+                10) <Link to={'/React/10'}>Exercism 10</Link>
             </p>
             <p>
                 11) import name from 'name';
@@ -62,14 +64,14 @@ const React = () => {
                 15) The problem is the statement becouse is inside the render(), should beetween the declaration of the class and the render().
             </p>
             <p>
-                16) Using async await method, becouse the call will return a promise. If dont use the await the answer will be undefined or Promise pending.
+                16) Using async await method, becouse the call will return a promise. If dont use the await the answer will be undefined or Promise pending. 
                     Example on src/React/Code/ApiCall
             </p>
             <p>
                 17) The use is for side-effects. This happen when the changes dont target the output.
             </p>
             <p>
-                18)
+                18) <Link to={'/React/18'}>Exercism 18</Link>
             </p>
         </div>
     </div>
